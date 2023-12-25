@@ -1,0 +1,177 @@
+{
+  "main": {
+    "id": "7ae21ec27e78b1b1",
+    "type": "split",
+    "children": [
+      {
+        "id": "cb31e0607506565c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4aada729c2dc8080",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ANALYSIS/Tile Effect/Ground Effects.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b04c1b9165557cae",
+    "type": "split",
+    "children": [
+      {
+        "id": "7605704d36c954ee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "05dcf6f13e891a6a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6eab84077a000ea8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "34b9bdb48d5ec949",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "036fa1677a68ce04",
+    "type": "split",
+    "children": [
+      {
+        "id": "1a936148e594fdf9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6436fe19208205e9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ANALYSIS/Tile Effect/Ground Effects.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e5db60019d0dfc75",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "ANALYSIS/Tile Effect/Ground Effects.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "146db37e507e47c3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "9e1e2dee105e373e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "ANALYSIS/Tile Effect/Ground Effects.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "4aada729c2dc8080",
+  "lastOpenFiles": [
+    "ANALYSIS/Tile Effect/Weather Effects.md",
+    "ANALYSIS/Tile Effect/Ground Effects.md",
+    "ANALYSIS/Roguelite.md",
+    "ANALYSIS/Elements.md",
+    "ANALYSIS/Bonuses/Recuperation.md",
+    "ANALYSIS/Bonuses/Shielded.md",
+    "ANALYSIS/Strategy.md",
+    "ANALYSIS/Bonuses",
+    "ANALYSIS/RPG.md",
+    "ANALYSIS/Supply.md",
+    "ANALYSIS/Tile Effect",
+    "MOOD/Design Brainstorm.canvas",
+    "ANALYSIS/Tile Movement.md",
+    "MOOD/Class Diagram.canvas",
+    "DESIGN/Unit Class.md",
+    "DESIGN/Player Class.md",
+    "TODO/Kanban.md",
+    "ANALYSIS/Stats.md",
+    "ANALYSIS",
+    "Classes/Untitled.md",
+    "DESIGN",
+    "Class Diagram",
+    "MOOD",
+    "TODO",
+    "kanban.md"
+  ]
+}

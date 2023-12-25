@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"66dc2a0f4ca0a6ea","type":"text","text":"Map","x":-116,"y":-172,"width":250,"height":60},
+		{"id":"31bbb058a9e5d2a2","type":"text","text":"Region","x":-348,"y":5,"width":250,"height":60},
+		{"id":"1a9c8b4457bb5ab6","x":-200,"y":240,"width":250,"height":60,"type":"text","text":"Tile"},
+		{"id":"6b33f2fbb61fc273","x":303,"y":187,"width":250,"height":60,"type":"text","text":""},
+		{"id":"59a395cf4fcb16e7","x":-580,"y":-280,"width":250,"height":60,"type":"text","text":"Player"}
+	],
+	"edges":[
+		{"id":"600a9fbd91635db1","fromNode":"66dc2a0f4ca0a6ea","fromSide":"bottom","toNode":"31bbb058a9e5d2a2","toSide":"top"},
+		{"id":"4e77ca0fe5936042","fromNode":"31bbb058a9e5d2a2","fromSide":"bottom","toNode":"1a9c8b4457bb5ab6","toSide":"top"},
+		{"id":"65e13d7df8f70821","fromNode":"1a9c8b4457bb5ab6","fromSide":"right","toNode":"6b33f2fbb61fc273","toSide":"left"}
+	]
+}
