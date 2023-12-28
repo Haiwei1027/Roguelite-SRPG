@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ANALYSIS/Tile Effect/Ground Effects.md",
+                "file": "ANALYSIS/Effects/Ground Effects.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ANALYSIS/Tile Effect/Ground Effects.md",
+                "file": "ANALYSIS/Effects/Ground Effects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ANALYSIS/Tile Effect/Ground Effects.md",
+                "file": "ANALYSIS/Effects/Ground Effects.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ANALYSIS/Tile Effect/Ground Effects.md"
+                "file": "ANALYSIS/Effects/Ground Effects.md"
               }
             }
           }
@@ -148,17 +148,20 @@
   },
   "active": "4aada729c2dc8080",
   "lastOpenFiles": [
-    "ANALYSIS/Tile Effect/Weather Effects.md",
-    "ANALYSIS/Tile Effect/Ground Effects.md",
-    "ANALYSIS/Roguelite.md",
+    "ANALYSIS/Effects/Unit Effects.md",
+    "ANALYSIS/Effects/Weather Effects.md",
+    "ANALYSIS/Actions.md",
     "ANALYSIS/Elements.md",
-    "ANALYSIS/Bonuses/Recuperation.md",
-    "ANALYSIS/Bonuses/Shielded.md",
-    "ANALYSIS/Strategy.md",
-    "ANALYSIS/Bonuses",
+    "ANALYSIS/Roguelite.md",
     "ANALYSIS/RPG.md",
+    "ANALYSIS/Strategy.md",
+    "ANALYSIS/Effects/Ground Effects.md",
+    "ANALYSIS/Tile Effect/Untitled.md",
+    "ANALYSIS/Bonuses/Shielded.md",
+    "ANALYSIS/Bonuses/Recuperation.md",
     "ANALYSIS/Supply.md",
-    "ANALYSIS/Tile Effect",
+    "ANALYSIS/Bonuses",
+    "ANALYSIS/Effects",
     "MOOD/Design Brainstorm.canvas",
     "ANALYSIS/Tile Movement.md",
     "MOOD/Class Diagram.canvas",

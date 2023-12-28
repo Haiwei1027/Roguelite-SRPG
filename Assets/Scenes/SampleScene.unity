@@ -1219,6 +1219,8 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 3ed29675ca7ac2749b66ebd51b52f990, type: 2}
   - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: 211d23ff2e51eb545848231ec66ec051, type: 2}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   m_TileSpriteArray:
   - m_RefCount: 9
     m_Data: {fileID: 1186719993, guid: c40795797640b3949b060a475e7de200, type: 3}
@@ -1242,6 +1244,8 @@ Tilemap:
     m_Data: {fileID: -159795520, guid: 9f8aa06befd5ba242982e6db208baef3, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: 1051716448, guid: 9f8aa06befd5ba242982e6db208baef3, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   m_TileMatrixArray:
   - m_RefCount: 62
     m_Data:
@@ -3587,6 +3591,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1022727303}
   - component: {fileID: 1022727302}
+  - component: {fileID: 1022727304}
   m_Layer: 0
   m_Name: Region
   m_TagString: Untagged
@@ -3628,6 +3633,18 @@ Transform:
   - {fileID: 160757564}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1022727304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022727301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ee428922482b54cb09dfcd4631a46b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1113015368
 GameObject:
   m_ObjectHideFlags: 0
@@ -3918,8 +3935,8 @@ Tilemap:
       e12: 9.64e-43
       e13: 9.64e-43
       e20: -1.3768908e+25
-      e21: -1665.082
-      e22: 4.038215e-19
+      e21: -262.05273
+      e22: 3.58047e-19
       e23: 372694.5
       e30: 4.5905e-41
       e31: 9.67e-43
