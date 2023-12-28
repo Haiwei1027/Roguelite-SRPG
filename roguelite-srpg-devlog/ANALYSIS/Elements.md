@@ -10,7 +10,7 @@ To encourage movement air elementals will benefit greatly from [[Weather Effects
 # Earth
 #grounded
 Earth elementals are great defenders, but lacks break through capability. 
-To encourage positioning, earth elements will be able to create #fortified tiles to help defend an choke point
+To encourage positioning, earth elements will be able to create [[Ground Effects]] #fortified tiles to help defend an choke point
 # Water
 #grounded
 Water elementals are great at crowd control, but are worse at picking off sole targets. 

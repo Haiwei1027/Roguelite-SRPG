@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ANALYSIS/Effects/Ground Effects.md",
+                "file": "ANALYSIS/Rogue lite.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "95b6ddd414d60616",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ANALYSIS/Case Studies.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,7 +62,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ANALYSIS/Effects/Ground Effects.md",
+                "file": "ANALYSIS/Case Studies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ANALYSIS/Effects/Ground Effects.md",
+                "file": "ANALYSIS/Case Studies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ANALYSIS/Effects/Ground Effects.md"
+                "file": "ANALYSIS/Case Studies.md"
               }
             }
           }
@@ -146,28 +159,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4aada729c2dc8080",
+  "active": "95b6ddd414d60616",
   "lastOpenFiles": [
+    "ANALYSIS/Elements.md",
+    "ANALYSIS/Rogue lite.md",
+    "ANALYSIS/Case Studies.md",
+    "ANALYSIS/Effects/Ground Effects.md",
     "ANALYSIS/Effects/Unit Effects.md",
     "ANALYSIS/Effects/Weather Effects.md",
-    "ANALYSIS/Actions.md",
-    "ANALYSIS/Elements.md",
-    "ANALYSIS/Roguelite.md",
     "ANALYSIS/RPG.md",
     "ANALYSIS/Strategy.md",
-    "ANALYSIS/Effects/Ground Effects.md",
+    "ANALYSIS/Unit Actions.md",
+    "DESIGN/Prototype 0.1/Unit Class.md",
+    "DESIGN/Prototype 0.1/Player Class.md",
+    "TODO/Kanban.md",
+    "MOOD/Design Brainstorm.canvas",
+    "MOOD/Class Diagram.canvas",
+    "DESIGN/Prototype 0.1",
     "ANALYSIS/Tile Effect/Untitled.md",
     "ANALYSIS/Bonuses/Shielded.md",
     "ANALYSIS/Bonuses/Recuperation.md",
     "ANALYSIS/Supply.md",
     "ANALYSIS/Bonuses",
     "ANALYSIS/Effects",
-    "MOOD/Design Brainstorm.canvas",
     "ANALYSIS/Tile Movement.md",
-    "MOOD/Class Diagram.canvas",
-    "DESIGN/Unit Class.md",
-    "DESIGN/Player Class.md",
-    "TODO/Kanban.md",
     "ANALYSIS/Stats.md",
     "ANALYSIS",
     "Classes/Untitled.md",
