@@ -37,6 +37,7 @@ public class Cursor : MonoBehaviour
         input.actions["Move Cursor"].started += MoveCursorStarted;
         input.actions["Move Cursor"].performed += MoveCursorPerformed;
         input.actions["Move Cursor"].canceled += MoveCursorCanceled;
+        input.actions["Spawn Unit"].performed += SpawnUnit;
     }
 
     private void UnsubscribeInputs()
@@ -45,6 +46,7 @@ public class Cursor : MonoBehaviour
         input.actions["Move Cursor"].started -= MoveCursorStarted;
         input.actions["Move Cursor"].performed -= MoveCursorPerformed;
         input.actions["Move Cursor"].canceled -= MoveCursorPerformed;
+        input.actions["Spawn Unit"].performed += SpawnUnit;
     }
 
     private void OnEnable()
@@ -55,6 +57,11 @@ public class Cursor : MonoBehaviour
     private void OnDisable()
     {
         UnsubscribeInputs();
+    }
+
+    public void SpawnUnit(InputAction.CallbackContext context)
+    {
+        Region.instance.SpawnUnit(Vector3Int.RoundToInt(transform.position), "new dood", ElementType.AIR, 1, 0);
     }
 
     private void ReadMoveVector(InputAction.CallbackContext context)

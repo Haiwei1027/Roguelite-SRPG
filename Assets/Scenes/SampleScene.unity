@@ -166,7 +166,7 @@ GameObject:
   - component: {fileID: 275002232}
   - component: {fileID: 275002234}
   - component: {fileID: 275002233}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Weather Effect Tiles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -495,7 +495,7 @@ GameObject:
   - component: {fileID: 467199336}
   - component: {fileID: 467199338}
   - component: {fileID: 467199337}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Overground Tiles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1303,7 +1303,7 @@ GameObject:
   - component: {fileID: 557946075}
   - component: {fileID: 557946077}
   - component: {fileID: 557946076}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Terrain Tiles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3444,6 +3444,52 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &729306609
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 729306610}
+  - component: {fileID: 729306611}
+  m_Layer: 0
+  m_Name: Unit Library
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &729306610
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729306609}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &729306611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729306609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f3cf3d3b1654bb43b7dcfa29bfed15a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tiles:
+  - {fileID: 0}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -3557,6 +3603,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29ee428922482b54cb09dfcd4631a46b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UnitLayer:
+    serializedVersion: 2
+    m_Bits: 32768
 --- !u!1 &1113015368
 GameObject:
   m_ObjectHideFlags: 0
@@ -3568,7 +3617,7 @@ GameObject:
   - component: {fileID: 1113015369}
   - component: {fileID: 1113015371}
   - component: {fileID: 1113015370}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Ground Effect Tiles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3744,7 +3793,7 @@ GameObject:
   - component: {fileID: 1776853648}
   - component: {fileID: 1776853650}
   - component: {fileID: 1776853649}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Unit Tiles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3892,7 +3941,7 @@ GameObject:
   - component: {fileID: 1876905864}
   - component: {fileID: 1876905866}
   - component: {fileID: 1876905865}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: UI Tiles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4121,7 +4170,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1921006709}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.5, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4207,3 +4256,4 @@ SceneRoots:
   - {fileID: 1921010093}
   - {fileID: 1022727303}
   - {fileID: 1921006712}
+  - {fileID: 729306610}
